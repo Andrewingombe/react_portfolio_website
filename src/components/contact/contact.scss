@@ -58,7 +58,7 @@
           border: 1px solid #eee;
           &::placeholder {
             color: gray;
-            font-family: inherit;
+            font-family: "Montserrat", sans-serif;
             font-size: 1.6rem;
           }
           &:focus {
@@ -74,7 +74,7 @@
         padding: 15px;
         margin-bottom: 10px;
         &::placeholder {
-          font-family: inherit;
+          font-family: "Montserrat", sans-serif;
           font-size: 1.6rem;
         }
         &:focus {

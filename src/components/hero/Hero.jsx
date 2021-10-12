@@ -13,10 +13,8 @@ function Hero() {
           I'm a <span>Front-end</span> Web Developer
         </h1>
         <p className="hero__text">
-          I build robust and scalabe web application using powerful and modern
-          technologies. My focus is on the MERN stack. That is MongoDB,
-          Express.js, React.js and Node.js. I will help you take your digital
-          foot print to the next level with programming.
+          I build, deploy and scale modern web applications using the MERN
+          stack. My focus is to help small businesses grow using programming.
         </p>
         <a href="#projects">
           <button className="btn"> View Projects</button>
