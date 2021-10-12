@@ -20,7 +20,9 @@ function About() {
         </div>
       </div>
       <div className="about__right">
-        <h4 className="about__intro">About</h4>
+        <div className="about__wrapper">
+          <h4 className="about__intro">About</h4>
+        </div>
         <h2 className="about__title">Get to know me.</h2>
         <p className="about__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita

@@ -2,16 +2,14 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  column-gap: 40px;
+  column-gap: 50px;
   border-top: 1px solid #eee;
   .contact__left {
     flex: 1;
-    .conatct__intro {
-      font-size: 2rem;
-      font-weight: 400;
-      color: gray;
-      margin-bottom: 30px;
+
+    .intro__wrapper {
       position: relative;
+      margin-bottom: 30px;
       &::before {
         content: "";
         position: absolute;
@@ -21,9 +19,17 @@
         border-radius: 5px;
       }
     }
+    .conatct__intro {
+      font-size: 2rem;
+      font-weight: 400;
+      color: gray;
+      margin-bottom: 30px;
+      padding-left: 10px;
+    }
     .contact__title {
       font-size: 3.5rem;
       margin-bottom: 50px;
+      color: #212121;
     }
   }
   .contact__details {
@@ -78,7 +84,7 @@
       button {
         width: 100%;
         font-size: 1.6rem;
-        border: none;
+        border: 1px solid #2e6edf;
         background-color: #2e6edf;
         color: white;
         padding: 15px;
@@ -99,10 +105,16 @@
   .contact__section {
     flex-direction: column;
     height: unset;
+    padding-top: 100px;
     margin-bottom: 100px;
     .contact__left,
     .contact__right {
       width: 100%;
+    }
+    .contact__left {
+      .contact__title {
+        font-size: 3rem;
+      }
     }
 
     .contact__right {

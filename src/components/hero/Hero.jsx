@@ -6,7 +6,9 @@ function Hero() {
   return (
     <div className="hero__section">
       <div className="hero__left">
-        <h4 className="intro">Hi there! Am Andrew.</h4>
+        <div className="intro__wrapper">
+          <h4 className="intro">Hi there! Am Andrew.</h4>
+        </div>
         <h1 className="hero__title">
           I'm a <span>Front-end</span> Web Developer
         </h1>

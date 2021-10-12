@@ -34,7 +34,9 @@ function Contact() {
   return (
     <div className="contact__section" id="contacts">
       <div className="contact__left">
-        <h4 className="conatct__intro">Contact</h4>
+        <div className="intro__wrapper">
+          <h4 className="conatct__intro">Contact</h4>
+        </div>
         <h2 className="contact__title">Let's discuss your project</h2>
         <div className="contact__details">
           <div className="contact__item">

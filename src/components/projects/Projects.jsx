@@ -6,7 +6,9 @@ import { projects } from "../../data.js";
 function Projects() {
   return (
     <div className="projects__section" id="projects">
-      <h4 className="projects__intro">Projects</h4>
+      <div className="intro__wrapper">
+        <h4 className="projects__intro">Projects</h4>
+      </div>
       <h2 className="projects__title">Take a look at my work</h2>
       <div className="projects__wrapper">
         {projects.map((project) => {
