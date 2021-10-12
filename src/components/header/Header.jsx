@@ -28,13 +28,13 @@ function Header() {
     <div>
       <header className={navbar ? "active" : null}>
         <nav className="navbar">
-          <a className={navbar ? "a-active" : null} href="#about">
+          <a className={links ? "a-active" : null} href="#about">
             About
           </a>
-          <a className={navbar ? "a-active" : null} href="#projects">
+          <a className={links ? "a-active" : null} href="#projects">
             Projects
           </a>
-          <a className={navbar ? "a-active" : null} href="#contacts">
+          <a className={links ? "a-active" : null} href="#contacts">
             Contact
           </a>
         </nav>
