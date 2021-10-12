@@ -13,7 +13,7 @@ import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 function About() {
   return (
-    <div className="about__section">
+    <div className="about__section" id="about">
       <div className="about__left">
         <div className="about__img__wrapper">
           <img src={profilePic} alt="Andrew smiling" />
