@@ -1,0 +1,31 @@
+.projects__section {
+  height: 100vh;
+  .projects__intro {
+    color: gray;
+    font-size: 2rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 30px;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 5px;
+      height: 100%;
+      background-color: #2e6edf;
+      border-radius: 5px;
+    }
+  }
+  .projects__title {
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+  }
+
+  .projects__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+  }
+}

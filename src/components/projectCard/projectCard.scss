@@ -1,0 +1,53 @@
+.card {
+  max-width: 500px;
+  width: 100%;
+  padding: 30px;
+  border: 1px solid #eee;
+  border-radius: 24px;
+  .card__image {
+    margin-bottom: 30px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .card__content {
+    .card__title {
+      font-size: 1.8rem;
+      margin-bottom: 30px;
+    }
+    .card__text {
+      font-size: 1.6rem;
+      margin-bottom: 30px;
+    }
+    .card__buttons {
+      display: flex;
+      justify-content: space-evenly;
+      .btn {
+        border: 1px solid #eee;
+        padding: 10px 30px;
+        font-family: inherit;
+        font-size: 1.6rem;
+        text-decoration: none;
+        border-radius: 24px;
+        color: gray;
+        transition: 0.5s ease-in-out;
+        &:hover {
+          background-color: #2e6edf;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .card__buttons {
+    flex-direction: column;
+    .btn {
+      display: inline-block;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+}
