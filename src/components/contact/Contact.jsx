@@ -24,7 +24,11 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          window.document.querySelector("form").reset();
           setDone(true);
+          setTimeout(() => {
+            setDone(false);
+          }, 5000);
         },
         (error) => {
           console.log(error.text);
@@ -58,17 +62,28 @@ function Contact() {
       <div className="contact__right">
         <form onSubmit={handleSubmit} ref={formRef}>
           <div className="form__input">
-            <input type="text" name="user__name" placeholder="Name" />
+            <input type="text" name="user__name" placeholder="Name" required />
           </div>
           <div className="form__input">
-            <input type="text" name="user__subject" placeholder="Subject" />
+            <input
+              type="text"
+              name="user__subject"
+              placeholder="Subject"
+              required
+            />
           </div>
           <div className="form__input">
-            <input type="text" name="user__email" placeholder="Email" />
+            <input
+              type="text"
+              name="user__email"
+              placeholder="Email"
+              required
+            />
           </div>
-          <textarea name="message" placeholder="Message"></textarea>
+          <textarea name="message" placeholder="Message" required></textarea>
           <button type="submit">Send message</button>
         </form>
+        {done && <h4 id="message__sent">Message has been sent</h4>}
       </div>
     </div>
   );

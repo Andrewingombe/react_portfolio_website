@@ -46,6 +46,16 @@
   }
   .contact__right {
     flex: 1;
+    #message__sent {
+      text-align: center;
+      padding: 10px;
+      background-color: lightgreen;
+      font-size: 1.6rem;
+      color: green;
+      width: fit-content;
+      border-radius: 24px;
+      margin-top: 15px;
+    }
     form {
       max-width: 500px;
       width: 100%;
@@ -76,6 +86,7 @@
         &::placeholder {
           font-family: "Montserrat", sans-serif;
           font-size: 1.6rem;
+          color: gray;
         }
         &:focus {
           outline-color: #2e6edf;
