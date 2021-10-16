@@ -6,6 +6,16 @@
   border-top: 1px solid #eee;
   .contact__left {
     flex: 1;
+    .social__icon {
+      color: gray;
+      font-size: 2.5rem;
+      transition: 0.5s ease-in-out;
+      margin-right: 15px;
+      margin-bottom: 30px;
+      &:hover {
+        color: #2e6edf;
+      }
+    }
 
     .intro__wrapper {
       position: relative;

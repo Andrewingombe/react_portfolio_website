@@ -7,6 +7,11 @@ import {
   faMapMarked,
   faPhoneAlt,
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faLinkedinIn,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Contact() {
   const formRef = useRef();
@@ -66,6 +71,27 @@ function Contact() {
             </p>
           </div>
         </div>
+        <a
+          href="https://github.com/Andrewingombe"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faGithub} className="social__icon" />
+        </a>
+        <a
+          href="https://twitter.com/AndrewIngombe"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faTwitter} className="social__icon" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/andrewingombe/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faLinkedinIn} className="social__icon" />
+        </a>
       </div>
       <div className="contact__right">
         <form onSubmit={handleSubmit} ref={formRef}>
