@@ -14,7 +14,8 @@ function Hero() {
         </h1>
         <p className="hero__text">
           I build, deploy and scale modern web applications using the MERN
-          stack. My focus is to help small businesses grow using programming.
+          stack. <br /> My focus and passion is to help businesses digitally
+          grow using technology.
         </p>
         <a href="#projects">
           <button className="btn"> View Projects</button>

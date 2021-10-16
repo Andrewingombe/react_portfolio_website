@@ -26,12 +26,14 @@ function About() {
         </div>
         <h2 className="about__title">Get to know me.</h2>
         <p className="about__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-          dolore explicabo perferendis adipisci hic suscipit commodi voluptates
-          id perspiciatis doloremque repudiandae sapiente, exercitationem
-          quaerat, ab nam? Ab facere perspiciatis neque deserunt quidem quo.
-          Accusantium minima veniam autem similique molestiae reiciendis error
-          hic, eligendi est sit perspiciatis dolorem tempore. Ipsum, assumenda.
+          My names are Andrew Ingombe and I am a Front-end developer with
+          Back-end experience. I have been programming and developing for over a
+          year now. <br /> <br /> Briefly, I started off with a degree in
+          Business Administration and after working in the finance industry for
+          8 years, I decided to take a different route and join the tech
+          industry. <br /> <br /> I love programming. I am proficient in
+          <span> React.js</span>, <span>Javascript</span>, <span>Node.js</span>{" "}
+          and <span>MongoDB</span>. Download my CV below to learn more about me.
         </p>
         <h3 className="skills__title">My Skills</h3>
         <div className="skills__icons">
