@@ -81,9 +81,17 @@
             background-color: #eee;
           }
         }
+        input[type="text"] {
+          font-family: inherit;
+          font-size: 1.6rem;
+          color: #212121;
+        }
       }
       textarea {
         width: 100%;
+        font-size: 1.6rem;
+        font-family: inherit;
+        color: #212121;
         height: 200px;
         border: 1px solid #eee;
         border-radius: 24px;
