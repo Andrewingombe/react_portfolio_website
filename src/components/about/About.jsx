@@ -63,7 +63,7 @@ function About() {
           </div>
         </div>
         <Link
-          to="files/CV_Andrew_Ingombe.PDF"
+          to="files/Andrew_Ingombe_Resume.PDF"
           className="download__btn"
           target="_blank"
           download
