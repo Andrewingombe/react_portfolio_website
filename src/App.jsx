@@ -6,19 +6,22 @@ import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <div className="container">
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
+    <BrowserRouter>
+      <div>
+        <Header />
+        <div className="container">
+          <Hero />
+          <About />
+          <Projects />
+          <Contact />
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 

@@ -4,7 +4,6 @@
   align-items: center;
   column-gap: 70px;
   margin-bottom: 100px;
-  border-bottom: 1px solid #eee;
   .about__left {
     flex: 1;
     width: 60%;
@@ -71,6 +70,25 @@
       color: gray;
     }
   }
+  .download__btn {
+    text-decoration: none;
+    background-color: #2e6edf;
+    color: white;
+    border: 1px solid #2e6edf;
+    font-family: inherit;
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin-top: 20px;
+    display: inline-block;
+    &:hover {
+      border: 1px solid #2e6edf;
+      color: #2e6edf;
+      background-color: transparent;
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -79,7 +97,6 @@
     height: unset;
     margin-bottom: 100px;
     align-items: start;
-    border-bottom: none;
     .about__left,
     .about__right {
       width: 100%;

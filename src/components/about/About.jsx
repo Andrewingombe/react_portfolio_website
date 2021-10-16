@@ -10,6 +10,7 @@ import {
   faSass,
 } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -59,6 +60,14 @@ function About() {
             <p className="icon__title">Git</p>
           </div>
         </div>
+        <Link
+          to="files/CV_Andrew_Ingombe.PDF"
+          className="download__btn"
+          target="_blank"
+          download
+        >
+          Download CV
+        </Link>
       </div>
     </div>
   );

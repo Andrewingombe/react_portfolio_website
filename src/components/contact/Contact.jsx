@@ -45,11 +45,19 @@ function Contact() {
         <div className="contact__details">
           <div className="contact__item">
             <FontAwesomeIcon icon={faPhoneAlt} className="icon" />
-            <p className="contact__text">+260-979-031-616</p>
+            <p className="contact__text">
+              <a className="tel" href="tel:+260979031616">
+                +260-979-031-616
+              </a>
+            </p>
           </div>
           <div className="contact__item">
             <FontAwesomeIcon icon={faEnvelope} className="icon" />
-            <p className="contact__text">ingombe.ani@gmail.com</p>
+            <p className="contact__text">
+              <a className="mail" href="mailto:ingombe.ani@gmail.com">
+                ingombe.ani@gmail.com
+              </a>
+            </p>
           </div>
           <div className="contact__item">
             <FontAwesomeIcon icon={faMapMarked} className="icon" />

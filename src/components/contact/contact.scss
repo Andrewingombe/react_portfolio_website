@@ -38,6 +38,11 @@
       font-size: 2.5rem;
       margin-bottom: 10px;
     }
+    .tel,
+    .mail {
+      color: gray;
+      text-decoration: none;
+    }
     .contact__text {
       font-size: 1.6rem;
       color: gray;
@@ -72,7 +77,8 @@
             font-size: 1.6rem;
           }
           &:focus {
-            outline-color: #2e6edf;
+            outline: none;
+            background-color: #eee;
           }
         }
       }
@@ -89,7 +95,8 @@
           color: gray;
         }
         &:focus {
-          outline-color: #2e6edf;
+          outline: none;
+          background-color: #eee;
         }
       }
       button {
